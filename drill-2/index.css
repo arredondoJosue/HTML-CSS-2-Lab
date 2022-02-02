@@ -1,0 +1,102 @@
+/* body {
+    display: block;
+    justify-items: center;
+} */
+
+#s1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: left;
+    box-sizing: border-box;
+    width: 650px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+
+#purple {
+    display: inline;
+    background-color: purple;
+    width: 20px;
+    height: 50px;
+    padding-top: 50px;
+}
+
+
+#p2 {
+    display: inline;
+    position: relative;
+    top: 25px;
+    background-color: purple;
+    width: 20px;
+    height: 25px;
+    padding-bottom: 50px;
+}
+
+#green {
+    display: inline;
+    background-color: rgb(32, 160, 15);
+    width: 300px;
+    height: 100px;
+
+}
+
+#blue {
+    display: inline;
+    background-color: rgb(19, 149, 153);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#s2 {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 150px;
+    border: 5px dotted black;
+    padding: 5px;
+    position: relative;
+    top: 50px;
+}
+
+#cream {
+    box-shadow: 6px 6px 3px gray;
+    background-color: tan;
+    height: 85px;
+    width: 500px;
+}
+
+#s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 7px rgb(187, 187, 187);
+    width: 450px;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    top: 100px;
+    left: 100px
+}
+
+#greeting {
+    color: rgb(48, 111, 194);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #hello {
+    left: 20px;
+}
+
+#friends {
+
+} */

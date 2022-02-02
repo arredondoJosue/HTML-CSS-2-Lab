@@ -1,0 +1,57 @@
+header {
+    background-color: rgb(182, 182, 182);
+    height: 100px;
+    padding: 20px;
+}
+
+#blueSqr {
+    background-color: rgb(0, 0, 160);
+    height: 90px;
+    width: 70px;
+}
+
+article{
+    padding: 50px;
+}
+
+.stripes {
+    position: relative;
+    top: 5px;
+
+}
+
+#blueRec {
+    background-color: rgb(43, 80, 245);
+    height: 150px;
+}
+
+#blueRec2 {
+    display: flex;
+    position: sticky;
+    background-color: rgb(45, 113, 192);
+    height: 120px;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+
+#greenRec {
+    background-color: green;
+    height: 150px;
+}
+
+#yellowRec {
+    background-color: yellow;
+    height: 150px;
+}
+
+button{
+    position: sticky;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 45px;
+}
